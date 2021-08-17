@@ -4436,6 +4436,7 @@ select[multiple] {
     position: relative;
     z-index: 0;
     background: none;
+    padding: 25px;
 }
 #frontpage-course-list .frontpage-enrolled-courses {
     padding: 40px 0 0;
@@ -5623,6 +5624,7 @@ tr.discussion .btn i.icon {
 .block-region .block .card-body {
     padding: 0;
     border: 1px solid var(--gallery);
+    border-radius: 5px;
 }
 .block-region .block .card-body .card-title {
     font-size: 20px;
