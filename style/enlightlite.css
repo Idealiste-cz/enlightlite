@@ -152,9 +152,9 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: baloo-bold, sans-serif;
     font-weight: normal;
     color: var(--color_mine_shaft_approx);
-    text-transform: uppercase;
 }
 .btn-primary,
 .btn-primary:hover,
@@ -1886,7 +1886,7 @@ input[type="reset"][disabled] {
     /*width: 100%;*/
     padding-left: 25px;
     max-height: 90px;
-    object-fit: contain;
+    /*object-fit: contain;*/
 }
 #site-header .header-main a.dropdown-item {
     color: var(--white);
@@ -4097,7 +4097,6 @@ img.userpicture {
 .custom-listing-01 .titlebar h3 {
     font-family: roboto, Arial, Helvetica, sans-serif;
     text-align: center;
-    text-transform: uppercase;
     float: none;
 }
 .custom-login-page {
@@ -5543,7 +5542,6 @@ tr.discussion .btn i.icon {
     font-family: roboto, Arial, Helvetica, sans-serif;
     color: var(--color_mine_shaft_approx);
     line-height: 1.375;
-    text-transform: uppercase;
     display: inline-block;
 }
 .custom-listing .box .box-content .more-link a i {
@@ -5710,7 +5708,7 @@ tr.discussion .btn i.icon {
 }
 .block .card-body .action-menu .dropdown .dropdown-menu a > i.icon {
     margin-left: 0;
-    margin-right: 0.5em;
+    margin-right: 0.8em;
 }
 .block .block-controls .dropdown-toggle {
     margin: 0 5px;
