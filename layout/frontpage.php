@@ -21,6 +21,10 @@
  * @author    LMSACE Dev Team
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
+header('Location: https://koala.idealiste.cz/moodle/login/index.php');
+exit();
+
 defined('MOODLE_INTERNAL') || die();
 
 // Get the HTML for the settings bits.
